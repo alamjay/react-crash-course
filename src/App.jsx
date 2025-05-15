@@ -1,5 +1,10 @@
+import PostList from "./components/PostsList";
+
+
 function App() {
-  return <h1>Hello World!</h1>;
+  return <>
+    <PostList />
+  </>
 }
 
 export default App;
